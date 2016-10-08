@@ -30,7 +30,7 @@ BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=mako lpj=
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 
 # Inline kernel building
-TARGET_KERNEL_CONFIG := mako_defconfig
+TARGET_KERNEL_CONFIG := quanta_defconfig
 TARGET_KERNEL_SOURCE := kernel/lge/mako
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/ubertc-arm-eabi-5.x/bin
